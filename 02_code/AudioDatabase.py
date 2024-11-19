@@ -32,6 +32,13 @@ class AudioDatabase:
 
     def cargar_audios(self, database_path='../04_db_audio'):
         self.database_path = Path(database_path)
+        self.berenjenas = []
+        self.camotes = []
+        self.papas = []
+        self.zanahorias = []
+        self.best_feature_indices = None 
+        self.classifier = KNN(n_neighbors=10)
+        self._init_scaler()
 
         for berenjena_path in self.database_path.glob('01_berenjena/*.wav'):
             self.berenjenas.append(Audio())
@@ -117,7 +124,7 @@ class AudioDatabase:
         
         # Ordenar y seleccionar top 30
         scores.sort(key=lambda x: x[1], reverse=True)
-        top_30_indices = [idx for idx, _, _ in scores[:20]]
+        top_30_indices = [idx for idx, _, _ in scores[:15]]
         
         # Preparar combinaciones para procesamiento paralelo
         all_combinations = []

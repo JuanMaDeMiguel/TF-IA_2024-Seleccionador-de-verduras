@@ -219,8 +219,10 @@ class Vista:
         root.withdraw()
         root.attributes('-topmost', True)
         
+        initial_dir = os.path.abspath('../06_prueba')
         imagen_paths = filedialog.askopenfilenames(
             title="Seleccionar las 4 imágenes (usar Ctrl+Click)",
+            initialdir=initial_dir,
             filetypes=(("Archivos de imagen", "*.jpg *.jpeg *.png"), ("Todos los archivos", "*.*"))
         )
         root.destroy()
@@ -297,6 +299,7 @@ class Vista:
 
         audio_path = filedialog.askopenfilename(
             title="Seleccionar audio",
+            initialdir=initial_dir,
             filetypes=(("Archivos de audio", "*.wav"), ("Todos los archivos", "*.*"))
         )
         root.destroy()

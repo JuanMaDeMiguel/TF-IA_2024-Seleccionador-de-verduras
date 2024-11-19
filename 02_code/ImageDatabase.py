@@ -28,7 +28,15 @@ class ImageDatabase:
 
     def cargar_imagenes(self, database_path = '../03_db'):
         self.database_path = Path(database_path)
-        
+        self.berenjenas = []
+        self.camotes = []
+        self.papas = []
+        self.zanahorias = []
+        self.features = None
+        self.labels = None
+        self.reset_scaler()
+        self.classifier = KMeans(n_clusters=4, max_iters=100, tol=1e-3)
+
         for berenjena_path in self.database_path.glob('01_berenjena/*.jpg'):
             self.berenjenas.append(Imagen());
             self.berenjenas[-1].imagen_desde_archivo(berenjena_path)
