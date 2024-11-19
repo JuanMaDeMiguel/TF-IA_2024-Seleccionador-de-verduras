@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+  <xmi:Documentation exporter="umbrello uml modeller 2.38.70-fa7cb2c (experimental) (Applications 24.11.70) http://umbrello.kde.org" exporterVersion="2.0.4"/>
+  <uml:Model xmi:id="m1" name="UML Model">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="folder" name="folder"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="dataType" name="dataType"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="constructor" name="constructor"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Logical_View" name="Logical View" stereotype="folder">
+      <uml:Package xmi:id="Datatypes" name="Datatypes" stereotype="folder">
+        <packagedElement xmi:type="uml:DataType" xmi:id="u6sRoLh30AOkz" name="char" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="umCXusHJCUAp0" name="int"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ukFzOhNlBtiIy" name="float"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u32wxr2CYoyC8" name="double" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uEEr9qyWN7hf0" name="bool"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ulU2bG5tOoSWo" name="string" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u6nUaGuuhd1SP" name="unsigned char" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ueAt1apAsAjwD" name="signed char" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uvMsvyS0DD4Wv" name="unsigned int" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uu61ALLEm21c5" name="signed int" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ualb9K5HwprSr" name="short int" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u7ym0LtfZHeCk" name="unsigned short int" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uODz2L2UrxpRn" name="signed short int" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uUuFgC288Ruxa" name="long int" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uCOwWQEUaX1lu" name="signed long int" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uU7MOdzGhU2CE" name="unsigned long int" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uLKSZvw7xYvz2" name="long double" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u9VsJrNF4zEJC" name="wchar_t" isActive="false"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u1OQDubZt3XJv" name="array" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uqAdnYMJNkIsp" name="tuple" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="unWKihTRNuMhg" name="list" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uvbAZLYYuEGHf" name="long" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u0oZyl1SniW9T" name="dict" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uDTCp6HZ8j75O" name="object" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uReqOfVaObtVz" name="set" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uyMc7UUcJrPX8" name="str" stereotype="dataType"/>
+      </uml:Package>
+      <packagedElement xmi:type="uml:Class" xmi:id="ucqvx53SWazxu" name="Vista">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uBnzDKplFmCSs" name="audio_database" type="u15F1IMLOYw4a" initialValue="()"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uKcHvF4zQ4kUp" name="new_attribute" visibility="private" type="upDe8WGfIb6op"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="un00iC0oUEVl6" name="new_attribute_1" visibility="private" type="upDe8WGfIb6op"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uV1e7oY2NyMmg" name="__init__" stereotype="constructor"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ucpIQ1Do62SOW" name="cargar_bases_datos" comment="Cargar datos desde CSV"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ulVISl8Fr8QiT" name="mostrar_menu"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uCyDLIlbEyqao" name="analizar_imagenes"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uz4nbMmcuYCo0" name="analizar_audios"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uTaly1NuVeHau" name="mostrar_segregacion_imagenes" comment="Create a single figure with two subplots side by side Left subplot for raw data PCA Right subplot for kmeans clustering"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="unJ6fWRwAJ84T" name="medir_eficiencia_imagenes" comment="Determinar la etiqueta real basada en el nombre del archivo Procesar la imagen y obtener predicciÃ³n">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uaAM7BEUyNAJU" type="uyMc7UUcJrPX8" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uC76sySWMJvop" name="medir_eficiencia_audios" comment="Determinar la etiqueta real basada en el nombre del archivo Procesar el audio y obtener predicciÃ³n audio_test.mostrar_pasos_analisis_audio()">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="utBQt7esHmLke" type="uyMc7UUcJrPX8" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ulL6cAOO3EEOc" name="ejecutar_seleccionador" comment="Abrir un Ãºnico diÃ¡logo para seleccionar las 4 imÃ¡genes Procesar las 4 imÃ¡genes seleccionadas Calcular matriz de distancias entre cada imagen y cada centroide 4 imÃ¡genes x 4 centroides Reemplazar la secciÃ³n de asignaciÃ³n greedy por el algoritmo hÃºngaro Crear las asignaciones basadas en el resultado del algoritmo hÃºngaro Mostrar resultados Crear figura compuesta Subplot principal para el PCA AÃ±adir los nuevos puntos al grÃ¡fico PCA AÃ±adir las imÃ¡genes en miniatura SelecciÃ³n de audio (continÃºa igual)">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uM1863GMlN2nv" type="uyMc7UUcJrPX8" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="udnTrkdEFTyD9" name="procesar_audio_seleccionado">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uZWLXOrmJyRav" name="audio_path" visibility="private" type="" value=""/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uUqbGjSbi5iiM" name="imagenes_cargadas" visibility="private" type="" value=""/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ubAQAXLdJpeCD" name="etiquetas_imagenes" visibility="private" type="" value=""/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="u15F1IMLOYw4a" name="AudioDatabase">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uQK2ABxHPUHRN" name="camotes" type="unWKihTRNuMhg" initialValue="[]"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uyj6uO9cRhiLo" name="papas" type="unWKihTRNuMhg" initialValue="[]"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="unHkcRshx0y2t" name="zanahorias" type="unWKihTRNuMhg" initialValue="[]"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uzA0Jtw6XyfLV" name="best_feature_indices" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uNJbDxHwZ7Jj1" name="classifier" type="upXErZvuKBHaH" initialValue="(n_neighbors=10)"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uSPEmIZx67M31" name="new_attribute" visibility="private" type="upXErZvuKBHaH"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uthmfTPgYHjCz" name="__init__" stereotype="constructor"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uGOuI4jh5AYrY" name="init_scaler" comment="Initialize scaler with required attributes Initialize required attributes for the scaler" visibility="protected"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uKaotz3MvgAvT" name="cargar_audios">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uihIAFS8gQMVB" name="database_path" visibility="private" type="umCXusHJCUAp0" value="'../04_db_audio'"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uhPepBbAWvv9A" name="procesar_audios"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uJIqTHA3l16Z7" name="evaluar_segregacion" comment="EvalÃºa la calidad de la segregaciÃ³n">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="u86vQnIL0SPSr" type="umCXusHJCUAp0" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uPfkpmlSEMXJO" name="features" visibility="private" type="" value=""/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="unIytlB4eIPe1" name="labels" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="u1F9t3DvOKZPN" name="evaluar_combinacion" comment="Helper function for parallel processing">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uekEVKRKG17Wv" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="u3mwiuOcFyqCj" name="args" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ur4DD4AYzoWg4" name="obtener_mejores_caracteristicas" comment="Recolectar y preparar datos Reset and initialize scaler before fitting Pre-evaluaciÃ³n de caracterÃ­sticas individuales Ordenar y seleccionar top 30 Preparar combinaciones para procesamiento paralelo Inicializar el pool de procesos Umbral para early stopping Procesar por lotes Preparar argumentos para el procesamiento paralelo Procesar lote en paralelo Actualizar mejor combinaciÃ³n Crear nombres descriptivos Extraer mejores caracterÃ­sticas AÃ±adimos best_combination">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uTwfXEP1g8q0V" type="uyMc7UUcJrPX8" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uWqEDI9jpJZSB" name="guardar_caracteristicas_csv" comment="Ya no necesitamos normalizar aquÃ­ porque ya estÃ¡n normalizadas Guardar los Ã­ndices y parÃ¡metros de normalizaciÃ³n">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ucAXvg2oFKkOd" name="filename" visibility="private" type="uDTCp6HZ8j75O" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uKAmSsJSmyDBU" name="cargar_caracteristicas_csv" comment="Ensure features have correct shape Load indices and normalization parameters">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uxtXomLunANTt" name="filename" visibility="private" type="uDTCp6HZ8j75O" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="u9EDWTKvViaTl" name="visualizar_pca" comment="Determinar el nÃºmero de componentes para PCA Aplicar PCA Crear grÃ¡fico Estilos para cada categorÃ­a Plotear cada categorÃ­a Configurar grÃ¡fico"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uy6jLaq9dPJ8e" name="entrenar_clasificador"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="u17YFaSToyEHE" name="predecir_categoria" comment="Obtener caracterÃ­sticas y aplanarlas Seleccionar las mejores caracterÃ­sticas Normalizar usando los mismos parÃ¡metros del entrenamiento Predecir usando el clasificador">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uYqG3Qb7FKSfW" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uZjisjPMopviY" name="audio_nuevo" visibility="private" type="" value=""/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="upXErZvuKBHaH" name="KNN">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uKSxTRsGFYx0h" name="X_train" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="ulmeSgxZe7ztB" name="y_train" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uPPnBHPZIhk0C" name="__init__" stereotype="constructor">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="urKf9TOln5gKg" name="n_neighbors" visibility="private" type="umCXusHJCUAp0" value="5"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uGWyi5E7XEItJ" name="fit" comment="Almacena los datos de entrenamiento">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uFPdpW5IxbUXA" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uGMqjGbmn87xV" name="X" visibility="private" type="" value=""/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="utmUT0mSN8qsG" name="y" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uJlBOhjdYki4o" name="predict" comment="Reshape X to ensure it's a row vector Calculate distances between X and all training points Get indices of k nearest neighbors for all points at once Get the labels of k nearest neighbors for all points Majority vote for each point">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uL28HJeUX92Zv" name="X" visibility="private" type="" value=""/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="uDRM9Lp4j8Mck" name="KMeans">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uje15iXkMwZh4" name="max_iters" type="uDTCp6HZ8j75O"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="ub6D2tCBhuajV" name="tol" type="uDTCp6HZ8j75O"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uWKrp5ygDIM6M" name="centroids" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="u7k6uvGJmODH6" name="labels" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="unNcwj4WlD13J" name="cluster_labels" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="u4KSwyTnjcs5r" name="__init__" stereotype="constructor">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uoEpBLdmEyk6x" name="n_clusters" visibility="private" type="umCXusHJCUAp0" value="4"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uqZWxmgbzB1iE" name="max_iters" visibility="private" type="umCXusHJCUAp0" value="1000000"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="u1SaEHNImfXv8" name="tol" visibility="private" type="umCXusHJCUAp0" value="1e"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="urEuzxl0r5Jw1" name="-" visibility="private" type="" value=""/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uYf4fEuljMnIw" name="20" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ujx2Ra5VqxSdS" name="initialize_centroids" comment="Inicializar centroides usando los arrays de features y labels Si no hay puntos en el cluster, inicializar aleatoriamente">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ufpUCQTMl4XNP" name="image_database" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uhcTWPpK9mKpz" name="fit">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ufkSdCl73nRFI" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uCqHTzEveUalD" name="X" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uRJ16r5KTtrW3" name="assign_cluster_labels">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="urjfhdo1flcGm" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="u2rGiCrF0ZOS7" name="true_labels" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="unK2W3jrZATy0" name="predict">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="upPOdp8FkG329" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uWoNz7CFC4VHh" name="X" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="u3NJ3CKFzSpcO" name="visualizar_pca" comment="Reducir dimensionalidad con PCA Usar el axis proporcionado o crear uno nuevo si no se proporciona Crear mapa de colores Plotear puntos para cada cluster Plotear centroide Marcar el nuevo punto si estÃ¡ presente">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uVgNYIJaBwf1E" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ukKS1FLhaZTij" name="ax" visibility="private" type="uDTCp6HZ8j75O" value="None"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ucqrXqTBkIVS5" name="new_point" visibility="private" type="uDTCp6HZ8j75O" value="None"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="u47WkyMJ0tShz" name="Imagen">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="u3P3f7rePeZbH" name="contours" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="ueRAUhHg24djv" name="masked_image" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uWXdV5Ik4c1yo" name="mean_color" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="ugR2zsckTZnEA" name="hu_moments" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uZcmvUp3J86zq" name="__init__" stereotype="constructor"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="upkHA4HCrrLgJ" name="imagen_desde_archivo">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ulZhV3boXpxPC" name="image_path" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ugJg1fc7zpihL" name="mask_image_kmeans" comment="Validate n_clusters Resize image to 720px height while maintaining aspect ratio Convert to float32 for faster computations Compute average color of central rectangle Define average colors (BGR format) Initialize centroids based on n_clusters K-means clustering with retry mechanism Initialize KMeans Check cluster sizes Acceptable clustering Perturb initial centroids slightly and retry Reconstruct image with clusters Calculate distances using only the blue channel Determine centroids to keep based on n_clusters Keep the centroid farthest from average blue Eliminate centroids closest to white and gray Keep the two centroids farthest from white and gray Initialize variables Iterate over selected centroids Create mask for the current centroid Reset binary image Detect contours Sort contours by area (largest first) Check each contour Suitable contour found Exit contour loop Exit centroid loop Scale contour to original size Create final mask in original size Convert final_mask to 3-channel image Apply the mask">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uvzDhSuF8CSHp" name="n_clusters" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uYflMuD1soBOp" name="extraer_caracteristicas"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ubaEqwEXGExPi" name="procesar_imagen_individual" comment="self.mostrar_proceso() Crear vector de caracterÃ­sticas combinando color y forma Metodos de debug"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uguSb2s1fs6fh" name="mostrar_proceso" comment="1. Imagen original redimensionada 2. Imagen con kmeans y grid de 7x7 3. Imagen kmeans con contorno 4. Imagen original con fondo recortado Mostrar las 4 imÃ¡genes"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="upDe8WGfIb6op" name="ImageDatabase">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uJMQCg5WPMrkV" name="camotes" type="unWKihTRNuMhg" initialValue="[]"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uCrn2fhTQKPxM" name="papas" type="unWKihTRNuMhg" initialValue="[]"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uJ2w2nu7D7HRf" name="zanahorias" type="unWKihTRNuMhg" initialValue="[]"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uGp2vuyuH5VJ0" name="features" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="u7WcF3YurecuC" name="labels" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="ugEnODfXajJdC" name="classifier" type="uDRM9Lp4j8Mck" initialValue="(n_clusters=4,max_iters=100,tol=1e-3)"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uGM8dYg25Ki3D" name="new_attribute" visibility="private" type="uDRM9Lp4j8Mck"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="umumQUqU1h2iN" name="new_attribute_1" visibility="private" type="uDRM9Lp4j8Mck"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uaohG7Dms2Pwf" name="__init__" stereotype="constructor"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="umHM9jsk8DG4E" name="reset_scaler" comment="Reset the scaler to its initial state"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uvi9PeWyfkYCc" name="cargar_imagenes">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="u2ttPP8onROZ2" name="database_path" visibility="private" type="umCXusHJCUAp0" value="'../03_db'"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uVYV8noBcFQZJ" name="procesar_imagenes" comment="Funciones de debug"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="u94TpQ0GqbppA" name="mostrar_base_de_datos" comment="Definir el tamaÃ±o de la ventana HD Calcular el tamaÃ±o de cada imagen manteniendo el ratio 4:3 Asumimos que todas las categorÃ­as tienen la misma cantidad de imÃ¡genes Redimensionar las imÃ¡genes y apilarlas Apilar todas las filas verticalmente Mostrar la imagen apilada">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ucB1UEcOYpP9L" type="uyMc7UUcJrPX8" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uwbLW8rbsoFUy" name="guardar_caracteristicas_csv" comment="Reset and fit the scaler before transforming Guardar los parÃ¡metros de normalizaciÃ³n">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="u8uJGSsVZVjZg" name="filename" visibility="private" type="uDTCp6HZ8j75O" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uGMSN2SjiSoVs" name="cargar_caracteristicas_csv" comment="Cargar parÃ¡metros de normalizaciÃ³n si existen">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="urm4RWXw6JcmC" name="filename" visibility="private" type="uDTCp6HZ8j75O" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ug8UZubIcibow" name="visualizar_pca" comment="Aplicar PCA sobre datos normalizados Usar el axis proporcionado o crear uno nuevo si no se proporciona Estilos para cada categorÃ­a Plotear cada categorÃ­a Configurar grÃ¡fico">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uusxvkk9yoNXE" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uF39VUknfsHRT" name="ax" visibility="private" type="uDTCp6HZ8j75O" value="None"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uJyw2M23w8WVD" name="entrenar_clasificador" comment="Inicializar y entrenar el KMeans con los datos normalizados">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uBrpwxUOwGQQj" type="uyMc7UUcJrPX8" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="unOgLz4b3NwOA" name="predecir_categoria" comment="Normalizar las caracterÃ­sticas de la nueva imagen Predecir usando el clasificador entrenado">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uX9yUF3w4Hg6i" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uF95QK03gtCCI" name="imagen_nueva" visibility="private" type="" value=""/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="uJ232rTFGuiWN" name="Audio">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uN7e99LQoIxNJ" name="audio" type="uDTCp6HZ8j75O" initialValue="None"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="utH2mzSeokNrF" name="__init__" stereotype="constructor"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uvAy0DcGFQdvU" name="audio_desde_archivo">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="unSP33tODNaPg" name="path" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uNEJNG7GfB8Bc" name="filtrar" comment="Frecuencia de corte inferior en Hz Frecuencia de corte superior en Hz Orden del filtro Convertir a mono promediando los canales">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ulcnOJqfT191r" type="uyMc7UUcJrPX8" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="uFzPBDbMbLR0I" name="audio" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ut5vXbx3wjX6n" name="extraer_caracteristicas_audio" comment="Extraer caracterÃ­sticas de los primeros 100 ms del audio Concatenar las caracterÃ­sticas de los primeros 100 ms con las caracterÃ­sticas generales">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="u3UHOK04ZdMAn" name="audio" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uSrkgUMxuXhry" name="analisis_completo" comment="# Reproducir un &quot;pip&quot; al principio duration = 0.3  # DuraciÃ³n del pip en segundos frequency = 1000  # Frecuencia del pip en Hz t = np.linspace(0, duration, int(self.sr * duration), endpoint=False) pip = 0.5 * np.sin(2 * np.pi * frequency * t) sd.play(pip, self.sr) sd.wait()  # Reproducir el audio despuÃ©s de filtrar, eliminar silencios y normalizar sd.play(audio, self.sr) sd.wait()  # Reproducir un &quot;pip&quot; al final sd.play(pip, self.sr) sd.wait()">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="ukdx3Xtddgais" name="audio" visibility="private" type="" value=""/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uMRMEtJXmxRkL" name="mostrar_pasos_analisis_audio" comment="Paso 1: Audio original Paso 2: Filtrado Paso 4: Trim Paso 5: PreÃ©nfasis Paso 6: NormalizaciÃ³n"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="uthWYLnnSeAOp" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="u3z1XUB3uAYgA" name="" type="u15F1IMLOYw4a" aggregation="aggregate" isNavigable="true" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uDfqSJAG0ZXVy" name="" type="uJ232rTFGuiWN" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="uuEWvQUe1myEp" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uJjZXmLz0cIox" name="" type="upDe8WGfIb6op" aggregation="aggregate" isNavigable="true" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="ueCx2zy1fzIuu" name="" type="u47WkyMJ0tShz" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+      <xmi:Extension extender="umbrello">
+        <diagrams resolution="120">
+          <diagram xmi.id="u2rGf2hk8kWNb" name="class diagram" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showdocumentation="0" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="65.7516" canvasheight="800" canvaswidth="1100" isopen="1">
+            <widgets>
+              <classwidget xmi.id="uJ232rTFGuiWN" localid="uU8BpIqd6anpe" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="61.9791" y="605.961" width="244" height="128" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showdocumentation="0"/>
+              <classwidget xmi.id="uDRM9Lp4j8Mck" localid="uQYrYjHUaKMSq" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="857.317" y="256.8" width="566" height="192" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showdocumentation="0"/>
+              <classwidget xmi.id="u47WkyMJ0tShz" localid="uNKy6doZPwBwu" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="464.85" y="606.857" width="243" height="176" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showdocumentation="0"/>
+              <classwidget xmi.id="ucqvx53SWazxu" localid="ug8udPjGepoLH" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="116.358" y="-120.287" width="546" height="224" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showdocumentation="0"/>
+              <classwidget xmi.id="upXErZvuKBHaH" localid="unBGfJoEqUScv" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="-349.877" y="302.806" width="280" height="96" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showdocumentation="0"/>
+              <classwidget xmi.id="upDe8WGfIb6op" localid="uLHT8di8pGBW4" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="402.015" y="199.501" width="373" height="304" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showdocumentation="0"/>
+              <classwidget xmi.id="u15F1IMLOYw4a" localid="uaJNYw5Lr8N3s" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="13.9791" y="198.293" width="333" height="304" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601" showdocumentation="0"/>
+            </widgets>
+            <messages/>
+            <associations>
+              <assocwidget xmi.id="umumQUqU1h2iN" localid="uTef9f7VqBwS3" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="510" visibilityA="1" visibilityB="1" changeabilityA="900" changeabilityB="900" widgetaid="upDe8WGfIb6op" widgetbid="uDRM9Lp4j8Mck" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <floatingtext xmi.id="utmm2yyBfH8Nc" localid="ued4pnTGJBzAf" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="763.464" y="338.373" width="106" height="20" isinstance="0" showstereotype="2" text="new_attribute_1" pretext="-" posttext="" role="710"/>
+                <linepath layout="Direct">
+                  <startpoint startx="775.015" starty="351.94"/>
+                  <endpoint endx="857.317" endy="352.134"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="uNJbDxHwZ7Jj1" localid="urP2mtrCirDTF" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="510" visibilityA="0" visibilityB="0" changeabilityA="900" changeabilityB="900" widgetaid="u15F1IMLOYw4a" widgetbid="upXErZvuKBHaH" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <floatingtext xmi.id="ueB8PjOlAO9tQ" localid="uzvLa87DKrZQe" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="-88.42" y="314.867" width="66" height="20" isinstance="0" showstereotype="2" text="classifier" pretext="+" posttext="" role="710"/>
+                <linepath layout="Direct">
+                  <startpoint startx="13.9791" starty="350.512"/>
+                  <endpoint endx="-69.8773" endy="350.622"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="uSPEmIZx67M31" localid="uHx1D4g3Of71Z" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="510" visibilityA="1" visibilityB="1" changeabilityA="900" changeabilityB="900" widgetaid="u15F1IMLOYw4a" widgetbid="upXErZvuKBHaH" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <floatingtext xmi.id="uVvQlDD3roIMj" localid="u6MR4jQHVTavz" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="-71.6904" y="328.555" width="92" height="20" isinstance="0" showstereotype="2" text="new_attribute" pretext="-" posttext="" role="710"/>
+                <linepath layout="Direct">
+                  <startpoint startx="13.9791" starty="350.512"/>
+                  <endpoint endx="-69.8773" endy="350.622"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="uKcHvF4zQ4kUp" localid="ueWasZFfKyMgN" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="510" visibilityA="1" visibilityB="1" changeabilityA="900" changeabilityB="900" widgetaid="ucqvx53SWazxu" widgetbid="upDe8WGfIb6op" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <floatingtext xmi.id="u9K8PY7tGaUeh" localid="uH0IQFgbysnRv" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="417.232" y="177.501" width="92" height="20" isinstance="0" showstereotype="2" text="new_attribute" pretext="-" posttext="" role="710"/>
+                <linepath layout="Direct">
+                  <startpoint startx="451.354" starty="103.713"/>
+                  <endpoint endx="504.377" endy="199.501"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="un00iC0oUEVl6" localid="uZi5oMeHInCVy" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="510" visibilityA="1" visibilityB="1" changeabilityA="900" changeabilityB="900" widgetaid="ucqvx53SWazxu" widgetbid="upDe8WGfIb6op" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <floatingtext xmi.id="uNxeU6S0q1O8t" localid="uPs7GXYMW5Nge" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="403.232" y="177.501" width="106" height="20" isinstance="0" showstereotype="2" text="new_attribute_1" pretext="-" posttext="" role="710"/>
+                <linepath layout="Direct">
+                  <startpoint startx="451.354" starty="103.713"/>
+                  <endpoint endx="504.377" endy="199.501"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="uthWYLnnSeAOp" localid="uNqa8TiI1OVrJ" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="501" widgetaid="u15F1IMLOYw4a" widgetbid="uJ232rTFGuiWN" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <linepath layout="Direct">
+                  <startpoint startx="182.143" starty="502.293"/>
+                  <endpoint endx="183.278" endy="605.961"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="ugEnODfXajJdC" localid="uBHnk6vieQwy1" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="510" visibilityA="0" visibilityB="0" changeabilityA="900" changeabilityB="900" widgetaid="upDe8WGfIb6op" widgetbid="uDRM9Lp4j8Mck" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <floatingtext xmi.id="u2fGBmhQNKP5W" localid="uJx2GaJiG7Xbl" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="806.464" y="338.373" width="66" height="20" isinstance="0" showstereotype="2" text="classifier" pretext="+" posttext="" role="710"/>
+                <linepath layout="Direct">
+                  <startpoint startx="775.015" starty="351.94"/>
+                  <endpoint endx="857.317" endy="352.134"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="uBnzDKplFmCSs" localid="uEISk0svb9fHL" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="510" visibilityA="0" visibilityB="0" changeabilityA="900" changeabilityB="900" widgetaid="ucqvx53SWazxu" widgetbid="u15F1IMLOYw4a" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <floatingtext xmi.id="uivrVfeuDnPcq" localid="uQi6mKF33dZyS" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="300" y="190.197" width="106" height="20" isinstance="0" showstereotype="2" text="audio_database" pretext="+" posttext="" role="710"/>
+                <linepath layout="Direct">
+                  <startpoint startx="324.116" starty="103.713"/>
+                  <endpoint endx="269.022" endy="198.293"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="uGM8dYg25Ki3D" localid="u4u8sRbZszyBb" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="510" visibilityA="1" visibilityB="1" changeabilityA="900" changeabilityB="900" widgetaid="upDe8WGfIb6op" widgetbid="uDRM9Lp4j8Mck" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <floatingtext xmi.id="u3rxXkBjX69qu" localid="upz2EORmG1F1i" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" x="777.464" y="338.373" width="92" height="20" isinstance="0" showstereotype="2" text="new_attribute" pretext="-" posttext="" role="710"/>
+                <linepath layout="Direct">
+                  <startpoint startx="775.015" starty="351.94"/>
+                  <endpoint endx="857.317" endy="352.134"/>
+                </linepath>
+              </assocwidget>
+              <assocwidget xmi.id="uuEWvQUe1myEp" localid="u7QXVczHwKbx4" textcolor="none" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" type="501" widgetaid="upDe8WGfIb6op" widgetbid="u47WkyMJ0tShz" indexa="0" totalcounta="0" indexb="0" totalcountb="0">
+                <linepath layout="Direct">
+                  <startpoint startx="587.556" starty="503.501"/>
+                  <endpoint endx="586.905" endy="606.857"/>
+                </linepath>
+              </assocwidget>
+            </associations>
+          </diagram>
+        </diagrams>
+      </xmi:Extension>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="Use_Case_View" name="Use Case View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Component_View" name="Component View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Deployment_View" name="Deployment View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Entity_Relationship_Model" name="Entity Relationship Model" stereotype="folder"/>
+  </uml:Model>
+  <xmi:Extension extender="umbrello">
+    <docsettings viewid="u2rGf2hk8kWNb" documentation="" uniqueid="ueCx2zy1fzIuu"/>
+    <listview>
+      <listitem id="Views" type="800" open="1">
+        <listitem id="Component_View" type="821" open="1"/>
+        <listitem id="Deployment_View" type="827" open="1"/>
+        <listitem id="Entity_Relationship_Model" type="836" open="1"/>
+        <listitem id="Logical_View" type="801" open="1">
+          <listitem id="uJ232rTFGuiWN" type="813" open="0">
+            <listitem id="utH2mzSeokNrF" type="815" open="0"/>
+            <listitem id="uSrkgUMxuXhry" type="815" open="0"/>
+            <listitem id="uN7e99LQoIxNJ" type="814" open="0"/>
+            <listitem id="uvAy0DcGFQdvU" type="815" open="0"/>
+            <listitem id="ut5vXbx3wjX6n" type="815" open="0"/>
+            <listitem id="uNEJNG7GfB8Bc" type="815" open="0"/>
+            <listitem id="uMRMEtJXmxRkL" type="815" open="0"/>
+          </listitem>
+          <listitem id="u15F1IMLOYw4a" type="813" open="1">
+            <listitem id="uthmfTPgYHjCz" type="815" open="0"/>
+            <listitem id="uzA0Jtw6XyfLV" type="814" open="0"/>
+            <listitem id="uQK2ABxHPUHRN" type="814" open="0"/>
+            <listitem id="uKaotz3MvgAvT" type="815" open="0"/>
+            <listitem id="uKAmSsJSmyDBU" type="815" open="0"/>
+            <listitem id="uNJbDxHwZ7Jj1" type="814" open="0"/>
+            <listitem id="uy6jLaq9dPJ8e" type="815" open="0"/>
+            <listitem id="u1F9t3DvOKZPN" type="815" open="0"/>
+            <listitem id="uJIqTHA3l16Z7" type="815" open="0"/>
+            <listitem id="uWqEDI9jpJZSB" type="815" open="0"/>
+            <listitem id="uGOuI4jh5AYrY" type="815" open="0"/>
+            <listitem id="uSPEmIZx67M31" type="814" open="0"/>
+            <listitem id="ur4DD4AYzoWg4" type="815" open="0"/>
+            <listitem id="uyj6uO9cRhiLo" type="814" open="0"/>
+            <listitem id="u17YFaSToyEHE" type="815" open="0"/>
+            <listitem id="uhPepBbAWvv9A" type="815" open="0"/>
+            <listitem id="u9EDWTKvViaTl" type="815" open="0"/>
+            <listitem id="unHkcRshx0y2t" type="814" open="0"/>
+          </listitem>
+          <listitem id="u2rGf2hk8kWNb" type="807" label="class diagram" open="0"/>
+          <listitem id="Datatypes" type="830" open="0">
+            <listitem id="u1OQDubZt3XJv" type="829" open="1"/>
+            <listitem id="uEEr9qyWN7hf0" type="829" open="1"/>
+            <listitem id="u0oZyl1SniW9T" type="829" open="1"/>
+            <listitem id="ukFzOhNlBtiIy" type="829" open="1"/>
+            <listitem id="umCXusHJCUAp0" type="829" open="1"/>
+            <listitem id="unWKihTRNuMhg" type="829" open="1"/>
+            <listitem id="uvbAZLYYuEGHf" type="829" open="1"/>
+            <listitem id="uDTCp6HZ8j75O" type="829" open="1"/>
+            <listitem id="uReqOfVaObtVz" type="829" open="1"/>
+            <listitem id="uyMc7UUcJrPX8" type="829" open="1"/>
+            <listitem id="uqAdnYMJNkIsp" type="829" open="1"/>
+          </listitem>
+          <listitem id="upDe8WGfIb6op" type="813" open="0">
+            <listitem id="uaohG7Dms2Pwf" type="815" open="0"/>
+            <listitem id="uJMQCg5WPMrkV" type="814" open="0"/>
+            <listitem id="uGMSN2SjiSoVs" type="815" open="0"/>
+            <listitem id="uvi9PeWyfkYCc" type="815" open="0"/>
+            <listitem id="ugEnODfXajJdC" type="814" open="0"/>
+            <listitem id="uJyw2M23w8WVD" type="815" open="0"/>
+            <listitem id="uGp2vuyuH5VJ0" type="814" open="0"/>
+            <listitem id="uwbLW8rbsoFUy" type="815" open="0"/>
+            <listitem id="u7WcF3YurecuC" type="814" open="0"/>
+            <listitem id="u94TpQ0GqbppA" type="815" open="0"/>
+            <listitem id="uGM8dYg25Ki3D" type="814" open="0"/>
+            <listitem id="umumQUqU1h2iN" type="814" open="0"/>
+            <listitem id="uCrn2fhTQKPxM" type="814" open="0"/>
+            <listitem id="unOgLz4b3NwOA" type="815" open="0"/>
+            <listitem id="uVYV8noBcFQZJ" type="815" open="0"/>
+            <listitem id="umHM9jsk8DG4E" type="815" open="0"/>
+            <listitem id="ug8UZubIcibow" type="815" open="0"/>
+            <listitem id="uJ2w2nu7D7HRf" type="814" open="0"/>
+          </listitem>
+          <listitem id="u47WkyMJ0tShz" type="813" open="0">
+            <listitem id="uZcmvUp3J86zq" type="815" open="0"/>
+            <listitem id="u3P3f7rePeZbH" type="814" open="0"/>
+            <listitem id="uYflMuD1soBOp" type="815" open="0"/>
+            <listitem id="ugR2zsckTZnEA" type="814" open="0"/>
+            <listitem id="upkHA4HCrrLgJ" type="815" open="0"/>
+            <listitem id="ugJg1fc7zpihL" type="815" open="0"/>
+            <listitem id="ueRAUhHg24djv" type="814" open="0"/>
+            <listitem id="uWXdV5Ik4c1yo" type="814" open="0"/>
+            <listitem id="uguSb2s1fs6fh" type="815" open="0"/>
+            <listitem id="ubaEqwEXGExPi" type="815" open="0"/>
+          </listitem>
+          <listitem id="uDRM9Lp4j8Mck" type="813" open="0">
+            <listitem id="u4KSwyTnjcs5r" type="815" open="0"/>
+            <listitem id="uRJ16r5KTtrW3" type="815" open="0"/>
+            <listitem id="uWKrp5ygDIM6M" type="814" open="0"/>
+            <listitem id="unNcwj4WlD13J" type="814" open="0"/>
+            <listitem id="uhcTWPpK9mKpz" type="815" open="0"/>
+            <listitem id="ujx2Ra5VqxSdS" type="815" open="0"/>
+            <listitem id="u7k6uvGJmODH6" type="814" open="0"/>
+            <listitem id="uje15iXkMwZh4" type="814" open="0"/>
+            <listitem id="unK2W3jrZATy0" type="815" open="0"/>
+            <listitem id="ub6D2tCBhuajV" type="814" open="0"/>
+            <listitem id="u3NJ3CKFzSpcO" type="815" open="0"/>
+          </listitem>
+          <listitem id="upXErZvuKBHaH" type="813" open="0">
+            <listitem id="uPPnBHPZIhk0C" type="815" open="0"/>
+            <listitem id="uGWyi5E7XEItJ" type="815" open="0"/>
+            <listitem id="uJlBOhjdYki4o" type="815" open="0"/>
+            <listitem id="uKSxTRsGFYx0h" type="814" open="0"/>
+            <listitem id="ulmeSgxZe7ztB" type="814" open="0"/>
+          </listitem>
+          <listitem id="ucqvx53SWazxu" type="813" open="0">
+            <listitem id="uV1e7oY2NyMmg" type="815" open="0"/>
+            <listitem id="uz4nbMmcuYCo0" type="815" open="0"/>
+            <listitem id="uCyDLIlbEyqao" type="815" open="0"/>
+            <listitem id="uBnzDKplFmCSs" type="814" open="0"/>
+            <listitem id="ucpIQ1Do62SOW" type="815" open="0"/>
+            <listitem id="ulL6cAOO3EEOc" type="815" open="0"/>
+            <listitem id="uC76sySWMJvop" type="815" open="0"/>
+            <listitem id="unJ6fWRwAJ84T" type="815" open="0"/>
+            <listitem id="ulVISl8Fr8QiT" type="815" open="0"/>
+            <listitem id="uTaly1NuVeHau" type="815" open="0"/>
+            <listitem id="uKcHvF4zQ4kUp" type="814" open="0"/>
+            <listitem id="un00iC0oUEVl6" type="814" open="0"/>
+            <listitem id="udnTrkdEFTyD9" type="815" open="0"/>
+          </listitem>
+        </listitem>
+        <listitem id="Use_Case_View" type="802" open="1"/>
+      </listitem>
+    </listview>
+    <codegeneration>
+      <codegenerator language="Python">
+        <sourcecode id="uV1e7oY2NyMmg" value="self.image_database=ImageDatabase()&#10;self.audio_database=AudioDatabase()&#10;self.cargar_bases_datos()&#10;"/>
+        <sourcecode id="ucpIQ1Do62SOW" value="self.image_database.cargar_caracteristicas_csv('caracteristicas_imagenes.csv')&#10;self.image_database.entrenar_clasificador()&#10;self.audio_database.cargar_caracteristicas_csv('caracteristicas_audios.csv')&#10;self.audio_database.entrenar_clasificador()&#10;"/>
+        <sourcecode id="ulVISl8Fr8QiT" value="while True:&#10;  print(&quot;\n=== MENÃš PRINCIPAL ===&quot;)&#10;  print(&quot;1. Volver a analizar base de datos de imÃ¡genes&quot;)&#10;  print(&quot;2. Volver a analizar base de datos de audios&quot;)&#10;  print(&quot;3. Mostrar segregaciÃ³n de imÃ¡genes&quot;)&#10;  print(&quot;4. Mostrar segregaciÃ³n de audios&quot;)&#10;  print(&quot;5. Medir eficiencia de reconocimiento de imÃ¡genes&quot;)&#10;  print(&quot;6. Medir eficiencia de reconocimiento de audios&quot;)&#10;  print(&quot;7. Ejecutar seleccionador de verduras&quot;)&#10;  print(&quot;8. Salir&quot;)&#10;  opcion=input(&quot;\nSeleccione una opciÃ³n: &quot;)&#10;  if opcion==&quot;1&quot;:&#10;    self.analizar_imagenes()&#10;&#10;  elif opcion==&quot;2&quot;:&#10;    self.analizar_audios()&#10;&#10;  elif opcion==&quot;5&quot;:&#10;    self.medir_eficiencia_imagenes()&#10;&#10;  elif opcion==&quot;6&quot;:&#10;    self.medir_eficiencia_audios()&#10;&#10;  elif opcion==&quot;7&quot;:&#10;    self.ejecutar_seleccionador()&#10;&#10;  elif opcion==&quot;8&quot;:&#10;    break&#10;&#10;  elif opcion==&quot;3&quot;:&#10;    self.mostrar_segregacion_imagenes()&#10;&#10;  elif opcion==&quot;4&quot;:&#10;    self.audio_database.visualizar_pca()&#10;&#10;  else:&#10;    print(&quot;OpciÃ³n no vÃ¡lida&quot;)&#10;&#10;&#10;"/>
+        <sourcecode id="uCyDLIlbEyqao" value="self.image_database.cargar_imagenes()&#10;self.image_database.procesar_imagenes()&#10;self.image_database.guardar_caracteristicas_csv('caracteristicas_imagenes.csv')&#10;self.image_database.mostrar_base_de_datos()&#10;self.image_database.cargar_caracteristicas_csv('caracteristicas_imagenes.csv')&#10;self.image_database.entrenar_clasificador()&#10;"/>
+        <sourcecode id="uz4nbMmcuYCo0" value="self.audio_database.cargar_audios()&#10;self.audio_database.procesar_audios()&#10;self.audio_database.guardar_caracteristicas_csv('caracteristicas_audios.csv')&#10;self.audio_database.cargar_caracteristicas_csv('caracteristicas_audios.csv')&#10;self.audio_database.entrenar_clasificador()&#10;"/>
+        <sourcecode id="uTaly1NuVeHau" value="fig=plt.figure(figsize=(20,8))&#10;ax1=fig.add_subplot(121,projection='3d')&#10;self.image_database.visualizar_pca(ax1)&#10;ax1.set_title('PCA de caracterÃ­sticas originales')&#10;ax2=fig.add_subplot(122,projection='3d')&#10;self.image_database.classifier.visualizar_pca(ax2)&#10;ax2.set_title('PCA de clusters K-means')&#10;plt.tight_layout()&#10;plt.show()&#10;"/>
+        <sourcecode id="unJ6fWRwAJ84T" value="directorio_actual=os.path.dirname(os.path.abspath(__file__))&#10;directorio_actual=Path('../07_db_eficiencia/fotos')&#10;print(&quot;\n=== MENÃš DE EFICIENCIA DE IMÃGENES ===&quot;)&#10;print(&quot;1. Base de datos&quot;)&#10;print(&quot;2. Set de prueba&quot;)&#10;opcion=input(&quot;\nSeleccione una opciÃ³n: &quot;)&#10;if opcion==&quot;1&quot;:&#10;  directorio_actual=Path('../07_db_eficiencia/fotos/db')&#10;&#10;elif opcion==&quot;2&quot;:&#10;  directorio_actual=Path('../07_db_eficiencia/fotos/set_prueba')&#10;&#10;else:&#10;  print(&quot;OpciÃ³n no vÃ¡lida&quot;)&#10;  return&#10;&#10;total_imagenes=0&#10;aciertos=0&#10;errores=[]&#10;for archivo in os.listdir(directorio_actual):&#10;  if archivo.endswith('.jpg')or archivo.endswith('.jpeg')or archivo.endswith('.png'):&#10;    total_imagenes+=1&#10;    etiqueta_real=''&#10;    if'b'in archivo.lower():&#10;      etiqueta_real='Berenjena'&#10;&#10;    elif'c'in archivo.lower():&#10;      etiqueta_real='Camote'&#10;&#10;    elif'z'in archivo.lower():&#10;      etiqueta_real='Zanahoria'&#10;&#10;    elif'p'in archivo.lower():&#10;      etiqueta_real='Papa'&#10;&#10;    imagen_test=Imagen()&#10;    imagen_test.imagen_desde_archivo(os.path.join(directorio_actual,archivo))&#10;    imagen_test.procesar_imagen_individual()&#10;    features_norm=self.image_database.scaler.transform(imagen_test.features.reshape(1,-1))&#10;    cluster_index=self.image_database.classifier.predict(features_norm)&#10;    prediccion=self.image_database.classifier.cluster_labels[cluster_index]&#10;    if prediccion==etiqueta_real:&#10;      aciertos+=1&#10;&#10;    else:&#10;      errores.append(archivo)&#10;&#10;&#10;&#10;eficiencia=(aciertos/total_imagenes)*100 if total_imagenes&gt;0 else 0&#10;print(f&quot;\nEficiencia del clasificador de imÃ¡genes: {eficiencia:.2f}%&quot;)&#10;print(f&quot;Total de imÃ¡genes analizadas: {total_imagenes}&quot;)&#10;print(f&quot;Total de aciertos: {aciertos}&quot;)&#10;if errores:&#10;  print(&quot;\nArchivos con predicciÃ³n incorrecta:&quot;)&#10;  for archivo in errores:&#10;    print(f&quot;- {archivo}&quot;)&#10;&#10;&#10;"/>
+        <sourcecode id="uC76sySWMJvop" value="directorio_actual=os.path.dirname(os.path.abspath(__file__))&#10;directorio_actual=Path('../07_db_eficiencia/audio')&#10;print(&quot;\n=== MENÃš DE EFICIENCIA DE AUDIOS ===&quot;)&#10;print(&quot;1. Base de datos&quot;)&#10;print(&quot;2. Set de prueba&quot;)&#10;print(&quot;3. Audios autor&quot;)&#10;opcion=input(&quot;\nSeleccione una opciÃ³n: &quot;)&#10;if opcion==&quot;1&quot;:&#10;  directorio_actual=Path('../07_db_eficiencia/audio/db')&#10;&#10;elif opcion==&quot;2&quot;:&#10;  directorio_actual=Path('../07_db_eficiencia/audio/set_prueba')&#10;&#10;elif opcion==&quot;3&quot;:&#10;  directorio_actual=Path('../07_db_eficiencia/audio/mios')&#10;&#10;else:&#10;  print(&quot;OpciÃ³n no vÃ¡lida&quot;)&#10;  return&#10;&#10;total_audios=0&#10;aciertos=0&#10;errores=[]&#10;for archivo in os.listdir(directorio_actual):&#10;  if archivo.endswith('.wav'):&#10;    total_audios+=1&#10;    etiqueta_real=''&#10;    if'b'in archivo.lower():&#10;      etiqueta_real='Berenjena'&#10;&#10;    elif'c'in archivo.lower():&#10;      etiqueta_real='Camote'&#10;&#10;    elif'p'in archivo.lower():&#10;      etiqueta_real='Papa'&#10;&#10;    elif'z'in archivo.lower():&#10;      etiqueta_real='Zanahoria'&#10;&#10;    audio_test=Audio()&#10;    audio_test.audio_desde_archivo(os.path.join(directorio_actual,archivo))&#10;    audio_test.analisis_completo(audio_test.audio)&#10;    features_audio=np.array(audio_test.features).reshape(1,-1)&#10;    features_audio_norm=self.audio_database.scaler.transform(features_audio)&#10;    features_audio_reducidas=features_audio_norm[:,self.audio_database.best_feature_indices]&#10;    prediccion=self.audio_database.classifier.predict(features_audio_reducidas)[0]&#10;    if prediccion==etiqueta_real:&#10;      aciertos+=1&#10;&#10;    else:&#10;      errores.append(archivo)&#10;&#10;&#10;&#10;eficiencia=(aciertos/total_audios)*100 if total_audios&gt;0 else 0&#10;print(f&quot;\nEficiencia del clasificador de audio: {eficiencia:.2f}%&quot;)&#10;print(f&quot;Total de audios analizados: {total_audios}&quot;)&#10;print(f&quot;Total de aciertos: {aciertos}&quot;)&#10;if errores:&#10;  print(&quot;\nArchivos con predicciÃ³n incorrecta:&quot;)&#10;  for archivo in errores:&#10;    print(f&quot;- {archivo}&quot;)&#10;&#10;&#10;"/>
+        <sourcecode id="ulL6cAOO3EEOc" value="imagenes_cargadas=[]&#10;features_normalizadas=[]&#10;root=Tk()&#10;root.withdraw()&#10;root.attributes('-topmost',True)&#10;imagen_paths=filedialog.askopenfilenames(&#10;title=&quot;Seleccionar las 4 imÃ¡genes (usar Ctrl+Click)&quot;,filetypes=((&quot;Archivos de imagen&quot;,&quot;*.jpg *.jpeg *.png&quot;),(&quot;Todos los archivos&quot;,&quot;*.*&quot;)))&#10;root.destroy()&#10;if len(imagen_paths)!=4:&#10;  print(&quot;Error: Debe seleccionar exactamente 4 imÃ¡genes&quot;)&#10;  return&#10;&#10;for imagen_path in imagen_paths:&#10;  imagen_a_asignar=Imagen()&#10;  imagen_a_asignar.imagen_desde_archivo(imagen_path)&#10;  imagen_a_asignar.procesar_imagen_individual()&#10;  imagen_a_asignar.mostrar_proceso()&#10;  features_norm=self.image_database.scaler.transform(imagen_a_asignar.features.reshape(1,-1))&#10;  imagenes_cargadas.append(imagen_a_asignar.resized_image)&#10;  features_normalizadas.append(features_norm)&#10;&#10;features_stack=np.vstack(features_normalizadas)&#10;distancias=np.zeros((4,4))&#10;for i in range(4):&#10;  for j in range(4):&#10;    distancias[i,j]=np.sqrt(np.sum((features_stack[i]-self.image_database.classifier.centroids[j])**2))&#10;&#10;&#10;img_indices,cluster_indices=linear_sum_assignment(distancias)&#10;asignaciones=[-1]*4&#10;for img_idx,cluster_idx in zip(img_indices,cluster_indices):&#10;  asignaciones[img_idx]=cluster_idx&#10;&#10;etiquetas_imagenes=[]&#10;for i in range(4):&#10;  cluster_label=self.image_database.classifier.cluster_labels[asignaciones[i]]&#10;  etiquetas_imagenes.append(cluster_label)&#10;  print(f&quot;Imagen {i+1} clasificada como: {cluster_label}&quot;)&#10;&#10;fig=plt.figure(figsize=(15,8))&#10;ax_pca=fig.add_subplot(121,projection='3d')&#10;self.image_database.classifier.visualizar_pca(ax_pca)&#10;pca=PCA(n_components=3)&#10;pca.fit(self.image_database.classifier.centroids)&#10;transformed_points=pca.transform(features_stack)&#10;for i in range(4):&#10;  ax_pca.scatter(transformed_points[i,0],&#10;  transformed_points[i,1],transformed_points[i,2],marker='x',color='red',s=200)&#10;for i in range(4):&#10;  ax_img=fig.add_subplot(4,4,4*(i+1))&#10;  ax_img.imshow(cv2.cvtColor(imagenes_cargadas[i],cv2.COLOR_BGR2RGB))&#10;  ax_img.axis('off')&#10;  ax_img.set_title(f'{etiquetas_imagenes[i]}',fontsize=8)&#10;&#10;plt.tight_layout()&#10;plt.show()&#10;root=Tk()&#10;root.withdraw()&#10;root.attributes('-topmost',True)&#10;audio_path=filedialog.askopenfilename(&#10;title=&quot;Seleccionar audio&quot;,filetypes=((&quot;Archivos de audio&quot;,&quot;*.wav&quot;),(&quot;Todos los archivos&quot;,&quot;*.*&quot;)))&#10;root.destroy()&#10;if audio_path:&#10;  self.procesar_audio_seleccionado(audio_path,imagenes_cargadas,etiquetas_imagenes)&#10;&#10;"/>
+        <sourcecode id="udnTrkdEFTyD9" value="audio_a_predecir=Audio()&#10;audio_a_predecir.audio_desde_archivo(audio_path)&#10;audio_a_predecir.analisis_completo(audio_a_predecir.audio)&#10;if hasattr(audio_a_predecir,'features'):&#10;  features_audio=np.array(audio_a_predecir.features)&#10;  features_audio_norm=self.audio_database.scaler.transform(features_audio.reshape(1,-1))&#10;  features_audio_norm=features_audio_norm.reshape(-1,1)&#10;  features_audio_reducidas=features_audio_norm[self.audio_database.best_feature_indices]&#10;  prediccion_audio=self.audio_database.classifier.predict(features_audio_reducidas)[0]&#10;  print(f&quot;El audio pertenece a la categorÃ­a: {prediccion_audio}&quot;)&#10;  if prediccion_audio in etiquetas_imagenes:&#10;    indices_imagenes=[idx for idx,label in enumerate(etiquetas_imagenes)if label==prediccion_audio]&#10;    for idx in indices_imagenes:&#10;      imagen_correspondiente=imagenes_cargadas[idx]&#10;      cv2.imshow(f&quot;Imagen correspondiente a {prediccion_audio}&quot;,imagen_correspondiente)&#10;      cv2.waitKey(0)&#10;      cv2.destroyAllWindows()&#10;&#10;&#10;  else:&#10;    print(&quot;No hay imÃ¡genes cargadas que correspondan a la categorÃ­a predicha.&quot;)"/>
+        <sourcecode id="uthmfTPgYHjCz" value="self.berenjenas=[]&#10;self.camotes=[]&#10;self.papas=[]&#10;self.zanahorias=[]&#10;self.best_feature_indices=None&#10;self.classifier=KNN(n_neighbors=10)&#10;self._init_scaler()&#10;"/>
+        <sourcecode id="uGOuI4jh5AYrY" value="self.scaler=StandardScaler(with_mean=True,with_std=True)&#10;self.scaler.n_samples_seen_=0&#10;self.scaler.mean_=None&#10;self.scaler.var_=None&#10;self.scaler.scale_=None&#10;"/>
+        <sourcecode id="uKaotz3MvgAvT" value="self.database_path=Path(database_path)&#10;for berenjena_path in self.database_path.glob('01_berenjena/*.wav'):&#10;  self.berenjenas.append(Audio())&#10;  self.berenjenas[-1].audio_desde_archivo(berenjena_path)&#10;&#10;for camote_path in self.database_path.glob('02_camote/*.wav'):&#10;  self.camotes.append(Audio())&#10;  self.camotes[-1].audio_desde_archivo(camote_path)&#10;&#10;for papa_path in self.database_path.glob('03_papa/*.wav'):&#10;  self.papas.append(Audio())&#10;  self.papas[-1].audio_desde_archivo(papa_path)&#10;&#10;for zanahoria_path in self.database_path.glob('04_zanahoria/*.wav'):&#10;  self.zanahorias.append(Audio())&#10;  self.zanahorias[-1].audio_desde_archivo(zanahoria_path)&#10;&#10;"/>
+        <sourcecode id="uhPepBbAWvv9A" value="for berenjena in self.berenjenas:&#10;  berenjena.analisis_completo(berenjena.audio)&#10;&#10;for camote in self.camotes:&#10;  camote.analisis_completo(camote.audio)&#10;&#10;for papa in self.papas:&#10;  papa.analisis_completo(papa.audio)&#10;&#10;for zanahoria in self.zanahorias:&#10;  zanahoria.analisis_completo(zanahoria.audio)&#10;&#10;"/>
+        <sourcecode id="uJIqTHA3l16Z7" value="try:&#10;  silhouette=silhouette_score(features,labels)&#10;  calinski=calinski_harabasz_score(features,labels)&#10;  return silhouette,calinski&#10;&#10;except:&#10;  return-1,-1&#10;&#10;"/>
+        <sourcecode id="u1F9t3DvOKZPN" value="indices,features,labels=args&#10;silhouette,_=self.evaluar_segregacion(features[:,list(indices)],labels)&#10;return(indices,silhouette)&#10;"/>
+        <sourcecode id="ur4DD4AYzoWg4" value="features=[]&#10;labels=[]&#10;for categoria,lista in[('Berenjena',self.berenjenas),&#10;('Camote',self.camotes),('Papa',self.papas),('Zanahoria',self.zanahorias)]:&#10;  for audio in lista:&#10;    features_array=np.array(audio.features)&#10;    if len(features_array.shape)&gt;1:&#10;      flattened_features=features_array.reshape(features_array.shape[0],-1)[0]&#10;&#10;    else:&#10;      flattened_features=features_array&#10;&#10;    features.append(flattened_features)&#10;    labels.append(categoria)&#10;&#10;&#10;features=np.array(features)&#10;if len(features.shape)==1:&#10;  features=features.reshape(-1,1)&#10;&#10;self._init_scaler()&#10;features=self.scaler.fit_transform(features)&#10;scores=[]&#10;for i in range(features.shape[1]):&#10;  feature=features[:,i:i+1]&#10;  silhouette,calinski=self.evaluar_segregacion(feature,labels)&#10;  scores.append((i,silhouette,calinski))&#10;&#10;scores.sort(key=lambda x:x[1],reverse=True)&#10;top_30_indices=[idx for idx,_,_ in scores[:20]]&#10;all_combinations=[]&#10;for r in range(1,6):&#10;  all_combinations.extend(combinations(top_30_indices,r))&#10;&#10;batch_size=1000&#10;total_combinations=len(all_combinations)&#10;n_processors=cpu_count()&#10;pool=Pool(processes=n_processors)&#10;best_combination=None&#10;best_score=-1&#10;early_stop_threshold=0.95&#10;print(f&quot;Evaluando {total_combinations} combinaciones usando {n_processors} procesos...&quot;)&#10;for batch_start in range(0,total_combinations,batch_size):&#10;  if best_score&gt;early_stop_threshold:&#10;    print(f&quot;Found excellent score ({best_score:.3f}). Early stopping...&quot;)&#10;    break&#10;&#10;  batch_end=min(batch_start+batch_size,total_combinations)&#10;  batch_combinations=all_combinations[batch_start:batch_end]&#10;  args=[(comb,features,labels)for comb in batch_combinations]&#10;  results=pool.map(self.evaluar_combinacion,args)&#10;  for indices,score in results:&#10;    if score&gt;best_score:&#10;      best_score=score&#10;      best_combination=indices&#10;&#10;&#10;  if batch_start%10==0:&#10;    print(f&quot;Progreso: {batch_start}/{total_combinations} combinaciones evaluadas&quot;)&#10;    print(f&quot;Mejor score hasta ahora: {best_score:.3f}&quot;)&#10;&#10;&#10;pool.close()&#10;pool.join()&#10;print(f&quot;\nMejor combinaciÃ³n encontrada. Score: {best_score:.3f}&quot;)&#10;feature_names=[]&#10;for idx in best_combination:&#10;  segment_num=idx//101&#10;  feature_num=idx%101&#10;  feature_names.append(f&quot;Seg{segment_num+1}_Feat{feature_num+1}&quot;)&#10;&#10;best_features=features[:,list(best_combination)]&#10;return best_features,feature_names,labels,best_combination&#10;"/>
+        <sourcecode id="uWqEDI9jpJZSB" value="features,feature_names,labels,best_indices=self.obtener_mejores_caracteristicas()&#10;self.best_feature_indices=best_indices&#10;df=pd.DataFrame(features,columns=feature_names)&#10;df['Categoria']=labels&#10;df.to_csv(filename,index=False)&#10;np.save('best_audio_feature_indices.npy',self.best_feature_indices)&#10;np.save('audio_scaler_params.npy',[self.scaler.mean_,self.scaler.scale_])&#10;"/>
+        <sourcecode id="uKAmSsJSmyDBU" value="df=pd.DataFrame(pd.read_csv(filename))&#10;self.features=df.iloc[:,:-1].values&#10;self.labels=df['Categoria'].values&#10;if len(self.features.shape)==1:&#10;  self.features=self.features.reshape(-1,1)&#10;&#10;try:&#10;  self.best_feature_indices=np.load('best_audio_feature_indices.npy')&#10;  mean_,scale_=np.load('audio_scaler_params.npy')&#10;  self.scaler.mean_=mean_&#10;  self.scaler.scale_=scale_&#10;&#10;except FileNotFoundError:&#10;  print(&quot;Warning: Could not load normalization parameters&quot;)&#10;&#10;"/>
+        <sourcecode id="u9EDWTKvViaTl" value="n_components=min(3,self.features.shape[1])&#10;pca=PCA(n_components=n_components)&#10;features_pca=pca.fit_transform(self.features)&#10;fig=plt.figure(figsize=(12,8))&#10;if n_components==3:&#10;  ax=fig.add_subplot(111,projection='3d')&#10;&#10;else:&#10;  ax=fig.add_subplot(111)&#10;&#10;styles={&#10;&#10;'Berenjena'::&#10;  'color':'black','marker':'o'}&#10;  ,'Camote'::&#10;    'color':'violet','marker':'o'&#10;  ,'Papa'::&#10;    'color':'yellow','marker':'o'&#10;  ,'Zanahoria'::&#10;    'color':'orange','marker':'o'&#10;&#10;&#10;for label in styles.keys():&#10;  mask=np.array(self.labels)==label&#10;  if n_components==3:&#10;    ax.scatter(&#10;    features_pca[mask,0],features_pca[mask,1],features_pca[mask,2],c=styles[label]['color'],marker=styles[label]['marker'],s=100,label=label,alpha=0.8,edgecolor='white')&#10;&#10;  elif n_components==2:&#10;    ax.scatter(&#10;    features_pca[mask,0],features_pca[mask,1],c=styles[label]['color'],marker=styles[label]['marker'],s=100,label=label,alpha=0.8,edgecolor='white')&#10;&#10;  else:&#10;    ax.scatter(&#10;    features_pca[mask,0],np.zeros_like(features_pca[mask,0]),c=styles[label]['color'],marker=styles[label]['marker'],s=100,label=label,alpha=0.8,edgecolor='white')&#10;&#10;&#10;ax.set_xlabel('PC1',fontsize=12)&#10;if n_components&gt;1:&#10;  ax.set_ylabel('PC2',fontsize=12)&#10;&#10;if n_components==3:&#10;  ax.set_zlabel('PC3',fontsize=12)&#10;&#10;ax.legend(bbox_to_anchor=(1.15,1))&#10;plt.title('PCA de la mejor combinaciÃ³n de caracterÃ­sticas',pad=20)&#10;plt.tight_layout()&#10;plt.show()&#10;"/>
+        <sourcecode id="uy6jLaq9dPJ8e" value="self.classifier.fit(self.features,self.labels)&#10;"/>
+        <sourcecode id="u17YFaSToyEHE" value="if hasattr(audio_nuevo,'features'):&#10;  features_audio=np.array(audio_nuevo.features).flatten()&#10;  features_reducidas=features_audio[self.best_feature_indices]&#10;  features_norm=self.scaler.transform(features_reducidas.reshape(1,-1))&#10;  return self.classifier.predict(features_norm)[0]&#10;&#10;return None"/>
+        <sourcecode id="uPPnBHPZIhk0C" value="self.n_neighbors=n_neighbors&#10;self.X_train=None&#10;self.y_train=None&#10;"/>
+        <sourcecode id="uGWyi5E7XEItJ" value="self.X_train=X&#10;self.y_train=y&#10;return self&#10;"/>
+        <sourcecode id="uJlBOhjdYki4o" value="X=X.reshape(1,-1)&#10;distances=np.sqrt(np.sum((self.X_train-X)**2,axis=1)).reshape(1,-1)&#10;k_indices=np.argpartition(distances,self.n_neighbors,axis=1)[:,:self.n_neighbors]&#10;k_nearest_labels=self.y_train[k_indices]&#10;predictions=np.array([Counter(labels).most_common(1)[0][0]&#10;for labels in k_nearest_labels])return predictions"/>
+        <sourcecode id="u4KSwyTnjcs5r" value="self.n_clusters=n_clusters&#10;self.max_iters=max_iters&#10;self.tol=tol&#10;self.centroids=None&#10;self.labels=None&#10;self.cluster_labels=None&#10;"/>
+        <sourcecode id="ujx2Ra5VqxSdS" value="features=image_database.features&#10;labels=image_database.labels&#10;initial_centroids=[]&#10;unique_labels=np.unique(labels)&#10;for label in unique_labels:&#10;  label_indices=np.where(labels==label)[0]&#10;  if len(label_indices)&gt;0:&#10;    initial_centroids.append(features[label_indices[0]])&#10;&#10;  else:&#10;    initial_centroids.append(features[np.random.choice(len(features))])&#10;&#10;&#10;self.centroids=np.array(initial_centroids)&#10;"/>
+        <sourcecode id="uhcTWPpK9mKpz" value="n_samples=X.shape[0]&#10;old_labels=np.zeros(n_samples)&#10;for _ in range(self.max_iters):&#10;  distances=((X[:,np.newaxis]-self.centroids)**2).sum(axis=2)&#10;  new_labels=np.argmin(distances,axis=1)&#10;  if np.sum(new_labels!=old_labels)&lt;=self.tol*n_samples:&#10;    break&#10;&#10;  old_labels=new_labels&#10;  self.labels=new_labels&#10;  for i in range(self.n_clusters):&#10;    mask=self.labels==i&#10;    if np.any(mask):&#10;      self.centroids[i]=np.mean(X[mask],axis=0)&#10;&#10;&#10;&#10;self.points=X&#10;return self&#10;"/>
+        <sourcecode id="uRJ16r5KTtrW3" value="self.cluster_labels=[]&#10;for i in range(self.n_clusters):&#10;  cluster_mask=self.labels==i&#10;  if np.any(cluster_mask):&#10;    cluster_true_labels=true_labels[cluster_mask]&#10;    most_common=Counter(cluster_true_labels).most_common(1)[0]&#10;    self.cluster_labels.append(most_common[0])&#10;&#10;  else:&#10;    self.cluster_labels.append(None)&#10;&#10;&#10;return self.cluster_labels&#10;"/>
+        <sourcecode id="unK2W3jrZATy0" value="X=X.reshape(1,-1)&#10;distances=np.sqrt(np.sum((self.centroids-X)**2,axis=1)).reshape(1,-1)&#10;return np.argmin(distances)&#10;"/>
+        <sourcecode id="u3NJ3CKFzSpcO" value="pca=PCA(n_components=3)&#10;transformed_centroids=pca.fit_transform(self.centroids)&#10;transformed_points=pca.transform(self.points)&#10;if ax is None:&#10;  fig=plt.figure(figsize=(10,8))&#10;  ax=fig.add_subplot(111,projection='3d')&#10;&#10;colors=plt.cm.rainbow(np.linspace(0,1,self.n_clusters))&#10;for i in range(self.n_clusters):&#10;  mask=self.labels==i&#10;  cluster_points=transformed_points[mask]&#10;  ax.scatter(cluster_points[:,0],cluster_points[:,1],cluster_points[:,2],&#10;  label=f'Cluster {i}',color=colors[i])ax.scatter(transformed_centroids[i,0],transformed_centroids[i,1],transformed_centroids[i,2],&#10;  marker='^',s=200,color=colors[i])&#10;if new_point is not None:&#10;  transformed_new_point=pca.transform(new_point.reshape(1,-1))&#10;  ax.scatter(transformed_new_point[0,0],transformed_new_point[0,1],transformed_new_point[0,2],&#10;  marker='x',color='red',s=200,label='Imagen Nueva')&#10;ax.set_xlabel('First Principal Component')&#10;ax.set_ylabel('Second Principal Component')&#10;ax.set_zlabel('Third Principal Component')&#10;ax.legend()&#10;return ax"/>
+        <sourcecode id="uZcmvUp3J86zq" value="self.image=None&#10;self.contours=None&#10;self.masked_image=None&#10;self.mean_color=None&#10;self.hu_moments=None&#10;"/>
+        <sourcecode id="upkHA4HCrrLgJ" value="try:&#10;  self.image=cv2.imread(image_path)&#10;  if self.image is None:&#10;    raise ValueError(f&quot;Error: No se pudo cargar la imagen {image_path}.&quot;)&#10;&#10;&#10;except Exception as e:&#10;  print(f&quot;Error: {e}&quot;)&#10;  self.image=None&#10;&#10;"/>
+        <sourcecode id="ugJg1fc7zpihL" value="if n_clusters not in[2,3,4]:&#10;  raise ValueError(&quot;n_clusters must be 2, 3, or 4&quot;)&#10;&#10;h,w=self.image.shape[:2]&#10;target_height=720&#10;target_width=int((target_height*w)/h)&#10;self.resized_image=cv2.resize(self.image,(target_width,target_height))&#10;reshaped_image=self.resized_image.reshape(-1,3).astype(np.float32)&#10;grid_size=11&#10;central_rect_height=target_height//grid_size&#10;central_rect_width=target_width//grid_size&#10;y_start=(target_height-central_rect_height)//2&#10;y_end=y_start+central_rect_height&#10;x_start=(target_width-central_rect_width)//2&#10;x_end=x_start+central_rect_width&#10;central_rect=self.resized_image[y_start:y_end,x_start:x_end]&#10;average_color_central=np.mean(central_rect.reshape(-1,3),axis=0)&#10;average_blue=np.array([255,0,0],dtype=np.float32)&#10;average_white=np.array([255,255,255],dtype=np.float32)&#10;average_gray=np.array([127.5,127.5,127.5],dtype=np.float32)&#10;if n_clusters==2:&#10;  initial_centroids=np.array([average_blue,average_color_central],dtype=np.float32)&#10;&#10;elif n_clusters==3:&#10;  initial_centroids=np.array([average_white,average_gray,average_color_central],dtype=np.float32)&#10;&#10;elif n_clusters==4:&#10;  average_black=np.array([0,0,0],dtype=np.float32)&#10;  initial_centroids=np.array([average_white,average_gray,average_color_central,average_black],dtype=np.float32)&#10;&#10;max_attempts=10&#10;total_points=reshaped_image.shape[0]&#10;for attempt in range(max_attempts):&#10;  kmeans=KMeans(n_clusters=n_clusters,max_iters=1000,tol=1e-3)&#10;  kmeans.centroids=initial_centroids.copy()&#10;  kmeans.fit(reshaped_image)&#10;  labels=kmeans.labels&#10;  counts=np.bincount(labels)&#10;  max_cluster_size=np.max(counts)&#10;  if max_cluster_size/total_points&lt;=0.95:&#10;    break&#10;&#10;  else:&#10;    perturbation=np.random.uniform(-15,15,initial_centroids.shape)&#10;    initial_centroids=initial_centroids+perturbation&#10;&#10;&#10;else:&#10;  raise RuntimeError(&quot;Failed to cluster without exceeding cluster size limit after multiple attempts.&quot;)&#10;&#10;self.kmeans_image=kmeans.centroids[kmeans.labels].reshape(target_height,target_width,3).astype(np.uint8)&#10;distances_to_blue=np.abs(kmeans.centroids[:,0]-average_blue[0])&#10;if n_clusters==2:&#10;  target_centroid_index=np.argmax(distances_to_blue)&#10;  target_centroid_indices=[target_centroid_index]&#10;&#10;elif n_clusters==3:&#10;  distances_to_white=np.linalg.norm(kmeans.centroids-average_white,axis=1)&#10;  distances_to_gray=np.linalg.norm(kmeans.centroids-average_gray,axis=1)&#10;  summed_distances=distances_to_white+distances_to_gray&#10;  target_centroid_index=np.argmax(summed_distances)&#10;  target_centroid_indices=[target_centroid_index]&#10;&#10;elif n_clusters==4:&#10;  distances_to_white=np.linalg.norm(kmeans.centroids-average_white,axis=1)&#10;  distances_to_gray=np.linalg.norm(kmeans.centroids-average_gray,axis=1)&#10;  summed_distances=distances_to_white+distances_to_gray&#10;  target_centroid_indices=np.argsort(summed_distances)[-2:]&#10;&#10;binary=np.zeros((target_height,target_width),dtype=np.uint8)&#10;contour_found=False&#10;for target_centroid_index in target_centroid_indices:&#10;  mask=kmeans.labels==target_centroid_index&#10;  binary.fill(0)&#10;  binary[mask.reshape(target_height,target_width)]=255&#10;  contours,_=cv2.findContours(binary,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)&#10;  if not contours:&#10;    continue&#10;&#10;  contours=sorted(contours,key=cv2.contourArea,reverse=True)&#10;  for cnt in contours:&#10;    if not self.is_contour_touching_edge(cnt,target_width,target_height):&#10;      max_contour=cnt&#10;      contour_found=True&#10;      break&#10;&#10;&#10;  if contour_found:&#10;    break&#10;&#10;&#10;if contour_found:&#10;  self.small_contour=max_contour&#10;  scale_x=w/target_width&#10;  scale_y=h/target_height&#10;  scaled_contour=(max_contour*[scale_x,scale_y]).astype(np.int32)&#10;  self.contours=scaled_contour&#10;  final_mask=np.zeros((h,w),dtype=np.uint8)&#10;  cv2.drawContours(final_mask,[scaled_contour],-1,255,-1)&#10;  final_mask_rgb=cv2.cvtColor(final_mask,cv2.COLOR_GRAY2BGR)&#10;  self.masked_image=cv2.bitwise_and(self.image,final_mask_rgb)&#10;&#10;else:&#10;  self.contours=None&#10;  self.masked_image=np.zeros_like(self.image)&#10;&#10;"/>
+        <sourcecode id="uYflMuD1soBOp" value="mask=cv2.cvtColor(self.masked_image,cv2.COLOR_BGR2GRAY)&gt;0&#10;mean_color=cv2.mean(self.masked_image,mask=mask.astype(np.uint8))&#10;gray_masked_image=cv2.cvtColor(self.masked_image,cv2.COLOR_BGR2GRAY)&#10;gray_masked_image[gray_masked_image&gt;0]=255&#10;moments=cv2.moments(gray_masked_image)&#10;hu_moments=cv2.HuMoments(moments).flatten()&#10;log_hu_moments=-np.sign(hu_moments)*np.log10(np.abs(hu_moments))&#10;self.log_hu_moments=log_hu_moments&#10;self.mean_color=mean_color[:3]&#10;"/>
+        <sourcecode id="ubaEqwEXGExPi" value="if self.image is None:&#10;  return None&#10;&#10;self.mask_image_kmeans(2)&#10;self.extraer_caracteristicas()&#10;features=np.hstack((&#10;self.mean_color,self.log_hu_moments[1],))&#10;self.features=features&#10;"/>
+        <sourcecode id="uguSb2s1fs6fh" value="resized=self.resized_image.copy()&#10;target_height,target_width=self.kmeans_image.shape[:2]&#10;central_rect_height=target_height//7&#10;central_rect_width=target_width//7&#10;x_start=(target_width-central_rect_width)//2&#10;x_end=x_start+central_rect_width&#10;y_start=(target_height-central_rect_height)//2&#10;y_end=y_start+central_rect_height&#10;kmeans_vis=self.resized_image.copy()&#10;for i in range(0,target_height,central_rect_height):&#10;  cv2.line(kmeans_vis,(0,i),(target_width,i),(255,0,0),1)&#10;&#10;for j in range(0,target_width,central_rect_width):&#10;  cv2.line(kmeans_vis,(j,0),(j,target_height),(255,0,0),1)&#10;&#10;cv2.rectangle(kmeans_vis,(x_start,y_start),(x_end,y_end),(0,255,0),2)&#10;kmeans_contour=self.kmeans_image.copy()&#10;if hasattr(self,'small_contour'):&#10;  cv2.drawContours(kmeans_contour,[self.small_contour],-1,(0,255,0),2)&#10;&#10;final_result=self.masked_image.copy()&#10;images=[resized,kmeans_vis,kmeans_contour,final_result]&#10;resized_images=[self.resize_image(img,300,400)for img in images]&#10;stacked_image=np.hstack(resized_images)&#10;cv2.imshow('Proceso de Imagen',stacked_image)&#10;cv2.waitKey(0)&#10;cv2.destroyAllWindows()&#10;"/>
+        <sourcecode id="uaohG7Dms2Pwf" value="self.berenjenas=[]&#10;self.camotes=[]&#10;self.papas=[]&#10;self.zanahorias=[]&#10;self.features=None&#10;self.labels=None&#10;self.reset_scaler()&#10;self.classifier=KMeans(n_clusters=4,max_iters=100,tol=1e-3)&#10;"/>
+        <sourcecode id="umHM9jsk8DG4E" value="self.scaler=StandardScaler()&#10;self.scaler.n_samples_seen_=0&#10;self.scaler.mean_=None&#10;self.scaler.var_=None&#10;self.scaler.scale_=None&#10;"/>
+        <sourcecode id="uvi9PeWyfkYCc" value="self.database_path=Path(database_path)&#10;for berenjena_path in self.database_path.glob('01_berenjena/*.jpg'):&#10;  self.berenjenas.append(Imagen())&#10;&#10;  self.berenjenas[-1].imagen_desde_archivo(berenjena_path)&#10;&#10;for camote_path in self.database_path.glob('02_camote/*.jpg'):&#10;  self.camotes.append(Imagen())&#10;  self.camotes[-1].imagen_desde_archivo(camote_path)&#10;&#10;for papa_path in self.database_path.glob('03_papa/*.jpg'):&#10;  self.papas.append(Imagen())&#10;  self.papas[-1].imagen_desde_archivo(papa_path)&#10;&#10;for zanahoria_path in self.database_path.glob('04_zanahoria/*.jpg'):&#10;  self.zanahorias.append(Imagen())&#10;  self.zanahorias[-1].imagen_desde_archivo(zanahoria_path)&#10;&#10;"/>
+        <sourcecode id="uVYV8noBcFQZJ" value="for berenjena in self.berenjenas:&#10;  berenjena.procesar_imagen_individual()&#10;&#10;&#10;for camote in self.camotes:&#10;  camote.procesar_imagen_individual()&#10;&#10;&#10;for papa in self.papas:&#10;  papa.procesar_imagen_individual()&#10;&#10;&#10;for zanahoria in self.zanahorias:&#10;  zanahoria.procesar_imagen_individual()&#10;&#10;&#10;"/>
+        <sourcecode id="u94TpQ0GqbppA" value="screen_width=1920&#10;screen_height=1080&#10;num_columns=len(self.berenjenas)&#10;image_width=screen_width//num_columns&#10;image_height=int(image_width*4/3)&#10;if image_height*4&gt;screen_height:&#10;  image_height=screen_height//4&#10;  image_width=int(image_height*3/4)&#10;&#10;def resize_image(image,width,height):&#10;  return cv2.resize(image,(width,height),interpolation=cv2.INTER_AREA)&#10;&#10;def draw_contours(image,contours):&#10;  image_with_contours=image.copy()&#10;  cv2.drawContours(image_with_contours,[contours],-1,(0,255,0),10)&#10;  return image_with_contours&#10;&#10;def stack_images(images,width,height):&#10;  resized_images=[]&#10;  for img in images:&#10;    if img.contours is not None:&#10;      image_with_contours=draw_contours(img.image,img.contours)&#10;&#10;    else:&#10;      image_with_contours=img.image&#10;&#10;    resized_image=resize_image(image_with_contours,width,height)&#10;    resized_images.append(resized_image)&#10;&#10;  return np.hstack(resized_images)&#10;&#10;berenjenas_row=stack_images(self.berenjenas,image_width,image_height)&#10;camotes_row=stack_images(self.camotes,image_width,image_height)&#10;papas_row=stack_images(self.papas,image_width,image_height)&#10;zanahorias_row=stack_images(self.zanahorias,image_width,image_height)&#10;stacked_image=np.vstack([berenjenas_row,camotes_row,papas_row,zanahorias_row])&#10;cv2.imshow('Base de Datos Completa',stacked_image)&#10;cv2.waitKey(0)&#10;cv2.destroyAllWindows()&#10;"/>
+        <sourcecode id="uwbLW8rbsoFUy" value="features=[]&#10;labels=[]&#10;feature_names=['color_B','color_G','color_R','log_hu_moment_2']&#10;for categoria,lista in[('Berenjena',self.berenjenas),&#10;('Camote',self.camotes),('Papa',self.papas),('Zanahoria',self.zanahorias)]:&#10;  for imagen in lista:&#10;    if hasattr(imagen,'features'):&#10;      features.append(imagen.features)&#10;      labels.append(categoria)&#10;&#10;&#10;&#10;features=np.array(features)&#10;self.reset_scaler()&#10;normalized_features=self.scaler.fit_transform(features)&#10;df=pd.DataFrame(normalized_features,columns=feature_names)&#10;df['Categoria']=labels&#10;np.save('scaler_params.npy',[self.scaler.mean_,self.scaler.scale_])&#10;df.to_csv(filename,index=False)&#10;"/>
+        <sourcecode id="uGMSN2SjiSoVs" value="df=pd.DataFrame(pd.read_csv(filename))&#10;self.features=df.iloc[:,:-1].values&#10;self.labels=df['Categoria'].values&#10;try:&#10;  mean_,scale_=np.load('scaler_params.npy')&#10;  self.scaler.mean_=mean_&#10;  self.scaler.scale_=scale_&#10;&#10;except:&#10;  print(&quot;No se encontraron parÃ¡metros de normalizaciÃ³n previos&quot;)&#10;&#10;"/>
+        <sourcecode id="ug8UZubIcibow" value="pca=PCA(n_components=3)&#10;features_3d=pca.fit_transform(self.features)&#10;if ax is None:&#10;  fig=plt.figure(figsize=(12,8))&#10;  ax=fig.add_subplot(111,projection='3d')&#10;&#10;styles={&#10;&#10;'Berenjena'::&#10;  'color':'black','marker':'o'}&#10;  ,'Camote'::&#10;    'color':'violet','marker':'o'&#10;  ,'Papa'::&#10;    'color':'yellow','marker':'o'&#10;  ,'Zanahoria'::&#10;    'color':'orange','marker':'o'&#10;&#10;&#10;for label in styles.keys():&#10;  mask=np.array(self.labels)==label&#10;  ax.scatter(&#10;  features_3d[mask,0],features_3d[mask,1],features_3d[mask,2],c=styles[label]['color'],marker=styles[label]['marker'],s=100,label=label,alpha=0.8,edgecolor='white')&#10;&#10;ax.set_xlabel('PC1',fontsize=12)&#10;ax.set_ylabel('PC2',fontsize=12)&#10;ax.set_zlabel('PC3',fontsize=12)&#10;ax.legend()&#10;return ax&#10;"/>
+        <sourcecode id="uJyw2M23w8WVD" value="self.classifier.initialize_centroids(self)&#10;self.classifier.fit(self.features)&#10;self.classifier.assign_cluster_labels(self.labels)&#10;return self.classifier&#10;"/>
+        <sourcecode id="unOgLz4b3NwOA" value="if hasattr(imagen_nueva,'features'):&#10;  features_norm=self.scaler.transform(imagen_nueva.features.reshape(1,-1))&#10;  return self.classifier.predict(features_norm)&#10;&#10;return None"/>
+        <sourcecode id="utH2mzSeokNrF" value="self.audio_path=None&#10;self.audio=None&#10;"/>
+        <sourcecode id="uvAy0DcGFQdvU" value="self.audio_path=path&#10;self.sr,audio=wavfile.read(path)&#10;if audio.ndim&gt;1:&#10;  self.audio=audio[:,0]&#10;&#10;else:&#10;  self.audio=audio&#10;&#10;"/>
+        <sourcecode id="uNEJNG7GfB8Bc" value="lowcut=250&#10;highcut=5500&#10;lowcut_normalized=lowcut/(0.5*self.sr)&#10;highcut_normalized=highcut/(0.5*self.sr)&#10;order=4&#10;b,a=butter(order,[lowcut_normalized,highcut_normalized],btype='band')&#10;if len(audio.shape)&gt;1:&#10;  audio=audio.mean(axis=1)&#10;&#10;audio=np.asarray(audio,dtype=float)&#10;filtered_audio=lfilter(b,a,audio)&#10;return filtered_audio&#10;"/>
+        <sourcecode id="ut5vXbx3wjX6n" value="mfcc=librosa.feature.mfcc(y=audio,sr=self.sr,n_mfcc=13)&#10;spectral_contrast=librosa.feature.spectral_contrast(y=audio,sr=self.sr)&#10;zcr=librosa.feature.zero_crossing_rate(y=audio)&#10;duration=librosa.get_duration(y=audio,sr=self.sr)&#10;first_100ms=audio[:int(0.1*self.sr)]&#10;mfcc_100ms=librosa.feature.mfcc(y=first_100ms,sr=self.sr,n_mfcc=13)&#10;spectral_contrast_100ms=librosa.feature.spectral_contrast(y=first_100ms,sr=self.sr)&#10;zcr_100ms=librosa.feature.zero_crossing_rate(y=first_100ms)&#10;self.features=np.concatenate((&#10;mfcc.mean(axis=1),spectral_contrast.mean(axis=1),zcr.mean(axis=1),[duration],mfcc_100ms.mean(axis=1),spectral_contrast_100ms.mean(axis=1),zcr_100ms.mean(axis=1)))&#10;"/>
+        <sourcecode id="uSrkgUMxuXhry" value="audio=self.filtrar(audio)&#10;audio=librosa.effects.trim(audio,top_db=15,frame_length=512,hop_length=64)[0]&#10;audio=librosa.effects.preemphasis(audio,coef=0.95)&#10;audio=librosa.util.normalize(audio)&#10;self.extraer_caracteristicas_audio(audio)&#10;"/>
+        <sourcecode id="uMRMEtJXmxRkL" value="audio=self.audio&#10;plt.figure(figsize=(14,5))&#10;plt.plot(audio)&#10;plt.title('Audio Original')&#10;plt.show()&#10;audio=self.filtrar(audio)&#10;plt.figure(figsize=(14,5))&#10;plt.plot(audio)&#10;plt.title('Audio Filtrado')&#10;plt.show()&#10;audio=librosa.effects.trim(audio,top_db=15,frame_length=512,hop_length=64)[0]&#10;plt.figure(figsize=(14,5))&#10;plt.plot(audio)&#10;plt.title('Audio despuÃ©s de Trim')&#10;plt.show()&#10;audio=librosa.effects.preemphasis(audio,coef=0.95)&#10;plt.figure(figsize=(14,5))&#10;plt.plot(audio)&#10;plt.title('Audio despuÃ©s de PreÃ©nfasis')&#10;plt.show()&#10;audio=librosa.util.normalize(audio)&#10;plt.figure(figsize=(14,5))&#10;plt.plot(audio)&#10;plt.title('Audio Normalizado')&#10;plt.show()&#10;self.extraer_caracteristicas_audio(audio)"/>
+      </codegenerator>
+    </codegeneration>
+  </xmi:Extension>
+</xmi:XMI>
