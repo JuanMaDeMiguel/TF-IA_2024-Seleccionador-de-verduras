@@ -64,7 +64,6 @@ class Audio:
         audio = librosa.effects.trim(audio, top_db=15, frame_length=512, hop_length=64)[0]
         audio = librosa.effects.preemphasis(audio, coef=0.95)
         audio = librosa.util.normalize(audio)
-
         # # Reproducir un "pip" al principio
         # duration = 0.3  # Duración del pip en segundos
         # frequency = 1000  # Frecuencia del pip en Hz
@@ -80,7 +79,6 @@ class Audio:
         # # Reproducir un "pip" al final
         # sd.play(pip, self.sr)
         # sd.wait()
-
         self.extraer_caracteristicas_audio(audio)
 
     def mostrar_pasos_analisis_audio(self):

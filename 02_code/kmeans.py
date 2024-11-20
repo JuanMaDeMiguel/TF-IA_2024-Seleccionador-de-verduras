@@ -32,15 +32,20 @@ class KMeans:
         old_labels = np.zeros(n_samples)
         
         for _ in range(self.max_iters):
+            # Distancia entre cada punto y todos los centroides
             distances = ((X[:, np.newaxis] - self.centroids) ** 2).sum(axis=2)
+            # La label es la pocicion en el array donde esta la minima distancia
             new_labels = np.argmin(distances, axis=1)
             
+            # Si la diferencia entre las labels anteriores y las nuevas es menor que la tolerancia, terminar
             if np.sum(new_labels != old_labels) <= self.tol * n_samples:
                 break
-                
+            
+            # Actualizar centroides
             old_labels = new_labels
             self.labels = new_labels
             
+            # Calcular nuevos centroides
             for i in range(self.n_clusters):
                 mask = self.labels == i
                 if np.any(mask):

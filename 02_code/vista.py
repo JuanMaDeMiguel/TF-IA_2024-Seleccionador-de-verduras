@@ -249,10 +249,10 @@ class Vista:
             for j in range(4):
                 distancias[i, j] = np.sqrt(np.sum((features_stack[i] - self.image_database.classifier.centroids[j])**2))
 
-        # Reemplazar la sección de asignación greedy por el algoritmo húngaro
+        
         img_indices, cluster_indices = linear_sum_assignment(distancias)
         
-        # Crear las asignaciones basadas en el resultado del algoritmo húngaro
+        
         asignaciones = [-1] * 4
         for img_idx, cluster_idx in zip(img_indices, cluster_indices):
             asignaciones[img_idx] = cluster_idx
@@ -292,7 +292,7 @@ class Vista:
         plt.tight_layout()
         plt.show()
 
-        # Selección de audio (continúa igual)
+        # Selección de audio
         root = Tk()
         root.withdraw()
         root.attributes('-topmost', True)
